@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, "sans-serif";
+  background: #fff;
+}
+
+/* Nav */
+#nav {
+  background: #fff;
+  width: 100%;
+  height: 50px;
+  border-bottom: 1px solid #ccc6cc;
+  padding-top: 5px;
+}
+
+#nav-content {
+  width: 790px;
+  margin: auto;
+}
+
+.cor-titulo {
+  color: #1ee371;
+}
+
+#logo {
+  float: left;
+}
+
+/* Nav menu */
+#menu {
+  float: right;
+  padding: 13px;
+}
+
+/* Nav Links menu */
+#menu a {
+  text-decoration: none;
+  padding: 5px 8px;
+}
+
+#menu a:link {
+  color: #403e40;
+}
+
+#menu a:visited {
+  color: #403e40;
+}
+
+#menu a:hover {
+  color: #1ee371;
+}
