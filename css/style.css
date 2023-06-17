@@ -28,6 +28,13 @@ body {
   align-items: center;
 }
 
+/* Logo no cabeçalho */
+#logo {
+  float: left;
+  color: #1ee371;
+  padding: 10px;
+  text-transform: uppercase;
+}
 
 /* Nav main */
 #nav-main {
