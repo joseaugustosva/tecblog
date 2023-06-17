@@ -36,6 +36,27 @@ body {
   text-transform: uppercase;
 }
 
+/* Pesquisa no cabeçalho */
+
+#search {
+  width: 300px;
+  height: 42px;
+  background: #333333;
+  border-radius: 12px;
+  border: 1px solid #404040;
+
+  background-image: url(../img/Search/lupa.svg);
+  background-repeat: no-repeat;
+  background-size: 1.8em;
+  padding-left: 2.6em;
+  background-position: left center;
+
+  color: #808080;
+  font-size: 0.9em;
+  font-weight: 400;
+  font-family: "Noto Sans", sans-serif;
+}
+
 /* Nav main */
 #nav-main {
   background: #262626;
