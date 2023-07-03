@@ -1,3 +1,13 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -125,9 +135,8 @@ body {
 }
 
 #post {
-  height: 120px;
   margin-top: 20px;
-  padding-bottom: 30px;
+  padding-bottom: 40px;
   border-bottom: 1px solid #f2f1f0;
 }
 
